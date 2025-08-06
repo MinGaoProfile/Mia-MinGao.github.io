@@ -1249,7 +1249,7 @@ function bibtex_js_draw() {
         //featured work
         if ($("#bibtex_featuredwork").length) {
             var bibtex_feautre = $("#bibtex_featuredwork");
-            (new BibtexDisplay()).displayFeaturedWork(bibstring, bibtex_feautre, 3);
+            (new BibtexDisplay()).displayFeaturedWork(bibstring, bibtex_feautre, 100);
 
         }
         //recent work
